@@ -1,0 +1,1716 @@
+﻿job_id,tool
+1,AWS
+1,Azure
+1,Databricks
+1,Git
+1,NetSuite/ERP
+1,Python
+1,SQL
+1,Spark
+2,HubSpot
+2,Jira
+3,LLMs / GenAI
+3,Jira
+4,Looker
+4,Power BI
+4,SQL
+4,Tableau
+5,APIs
+5,AWS
+5,Azure
+5,Looker
+5,Excel
+5,GCP
+5,Power BI
+5,Python
+5,R
+5,SQL
+5,Tableau
+8,Python
+8,SQL
+9,Excel
+9,Jira
+11,Excel
+11,SQL
+13,AWS
+13,Azure
+13,GCP
+13,Power Automate
+13,Power BI
+13,Python
+15,NetSuite/ERP
+15,Salesforce
+18,dbt
+18,Excel
+18,HubSpot
+18,Looker
+18,Python
+18,Power BI
+18,SQL
+18,Salesforce
+18,Snowflake
+18,Tableau
+19,Power BI
+19,SQL
+19,Tableau
+20,Excel
+20,Power BI
+20,Python
+20,R
+20,SQL
+23,Spark
+23,Azure
+23,Databricks
+23,Python
+24,dbt
+24,Power BI
+24,SQL
+24,Snowflake
+25,Power BI
+25,Python
+25,R
+25,SQL
+26,Looker
+27,Excel
+27,Power BI
+27,SQL
+27,Tableau
+28,SQL
+29,APIs
+29,SQL
+30,SQL
+31,SQL
+32,AWS
+32,Machine Learning
+32,Python
+32,SQL
+32,Salesforce
+32,Tableau
+33,Excel
+33,Power BI
+33,Python
+33,SQL
+34,Excel
+34,Power BI
+34,Python
+34,SQL
+34,Tableau
+35,AWS
+35,Azure
+35,Looker
+35,Excel
+35,GCP
+35,Machine Learning
+35,Power BI
+35,Python
+35,R
+35,SQL
+35,Tableau
+36,Google Analytics
+36,Python
+36,R
+36,SQL
+37,APIs
+37,Looker
+37,Metabase
+37,NetSuite/ERP
+37,Power BI
+37,Python
+37,SQL
+38,Redshift
+38,Databricks
+38,NetSuite/ERP
+38,Power BI
+38,Python
+38,Qlik
+38,Salesforce
+38,Tableau
+39,BigQuery
+39,Power BI
+39,Python
+39,Redshift
+39,SQL
+39,Snowflake
+39,Tableau
+40,Excel
+40,SQL
+41,Excel
+41,Python
+41,R
+41,Tableau
+42,Excel
+42,SQL
+42,Tableau
+43,Power BI
+43,SQL
+43,Tableau
+44,dbt
+44,Power BI
+44,SQL
+44,Snowflake
+45,Excel
+46,Python
+46,SQL
+46,Spark
+47,Excel
+47,SQL
+48,Azure
+48,Databricks
+48,Looker
+48,Power BI
+48,Python
+48,Qlik
+48,SQL
+48,Tableau
+50,APIs
+50,SQL
+50,Python
+51,BigQuery
+51,SQL
+52,Power BI
+52,Machine Learning
+52,Python
+52,SQL
+52,Spark
+53,AWS
+53,Azure
+53,GCP
+53,Looker
+53,Machine Learning
+53,Python
+53,R
+53,SQL
+53,Snowflake
+54,AWS
+54,Azure
+54,Excel
+54,GCP
+54,Machine Learning
+54,Power BI
+54,Python
+54,SQL
+54,Tableau
+55,Jira
+55,Databricks
+55,Git
+55,NetSuite/ERP
+55,SQL
+55,Power BI
+55,Python
+55,R
+55,Salesforce
+55,Tableau
+56,BigQuery
+56,GCP
+56,Git
+56,Looker
+56,Python
+56,SQL
+57,Databricks
+57,Git
+57,Metabase
+57,Python
+57,AWS
+57,SQL
+57,Snowflake
+58,Excel
+59,Excel
+59,Looker
+59,Power BI
+59,Python
+59,R
+59,SQL
+59,Tableau
+61,Excel
+61,Looker
+61,Power BI
+61,SQL
+61,Tableau
+62,dbt
+62,Git
+62,Looker
+62,Power BI
+62,SQL
+62,Tableau
+65,Excel
+65,Python
+65,SQL
+66,Power BI
+66,Excel
+66,SQL
+66,Salesforce
+67,Azure
+67,Power Automate
+67,Power BI
+67,SQL
+68,Power BI
+68,SQL
+68,Tableau
+69,Power BI
+69,SQL
+69,Tableau
+70,NetSuite/ERP
+70,Power BI
+70,SQL
+70,Tableau
+71,Excel
+72,BigQuery
+72,Python
+72,SQL
+75,Power BI
+75,HubSpot
+75,SQL
+75,Salesforce
+76,Airflow
+76,Python
+76,SQL
+76,Tableau
+77,LLMs / GenAI
+77,dbt
+77,Excel
+77,Git
+77,Python
+77,R
+77,SQL
+78,BigQuery
+78,Excel
+78,Looker
+78,Power BI
+78,Redshift
+78,SQL
+78,Snowflake
+78,Tableau
+80,BigQuery
+80,Excel
+80,Looker
+80,Power BI
+80,Python
+80,R
+80,Redshift
+80,SQL
+80,Snowflake
+80,Tableau
+81,Excel
+81,Google Analytics
+81,Python
+81,SQL
+81,Snowflake
+81,Tableau
+82,AWS
+82,Azure
+82,LLMs / GenAI
+82,Power BI
+82,Python
+82,R
+82,SQL
+82,Snowflake
+82,Tableau
+83,dbt
+83,Excel
+83,LLMs / GenAI
+83,Python
+83,R
+83,Redshift
+83,SQL
+83,Salesforce
+83,Tableau
+84,LLMs / GenAI
+84,Excel
+84,Google Analytics
+84,HubSpot
+84,Looker
+84,Power BI
+84,SQL
+84,Salesforce
+84,Tableau
+85,Databricks
+85,Power BI
+85,SQL
+86,Excel
+86,Power BI
+86,Tableau
+87,Excel
+87,NetSuite/ERP
+87,Power BI
+87,SQL
+88,SQL
+88,Snowflake
+89,SQL
+89,Snowflake
+90,Azure
+90,Power BI
+91,Power BI
+91,Salesforce
+93,Excel
+93,Python
+93,R
+93,SQL
+93,Tableau
+94,SQL
+95,Power BI
+95,Python
+95,R
+95,SQL
+95,Tableau
+96,LLMs / GenAI
+96,dbt
+96,Excel
+96,Git
+96,Python
+96,R
+96,SQL
+97,Excel
+97,Machine Learning
+97,Power BI
+97,Python
+97,R
+97,SQL
+97,Tableau
+98,Airflow
+98,Redshift
+98,BigQuery
+98,dbt
+98,LLMs / GenAI
+98,Machine Learning
+98,Python
+98,SQL
+98,Salesforce
+98,Snowflake
+98,Tableau
+99,LLMs / GenAI
+99,Python
+99,SQL
+100,LLMs / GenAI
+100,Python
+100,SQL
+102,Power BI
+102,Excel
+102,LLMs / GenAI
+102,Tableau
+103,Power BI
+103,Excel
+103,LLMs / GenAI
+103,Tableau
+104,Excel
+104,LLMs / GenAI
+105,BigQuery
+105,Google Analytics
+105,Power BI
+105,SQL
+105,Snowflake
+105,Tableau
+106,AWS
+106,Excel
+106,Python
+106,SQL
+107,Databricks
+107,Excel
+107,LLMs / GenAI
+107,Outreach/Salesloft
+107,Power BI
+107,Python
+107,SQL
+107,Salesforce
+108,Excel
+109,Excel
+109,SQL
+111,Excel
+111,SQL
+112,Databricks
+112,Excel
+112,Power Automate
+112,Power BI
+112,SQL
+112,Snowflake
+112,Tableau
+113,Azure
+113,LLMs / GenAI
+113,Machine Learning
+113,Power BI
+113,SQL
+113,Tableau
+114,Excel
+114,Google Analytics
+114,Looker
+114,Power BI
+114,Tableau
+115,LLMs / GenAI
+116,Excel
+117,APIs
+117,Excel
+117,Power Automate
+117,Power BI
+117,Python
+117,R
+117,Redshift
+117,SQL
+119,Fivetran
+119,Airflow
+119,Redshift
+119,BigQuery
+119,dbt
+119,Git
+119,LLMs / GenAI
+119,Machine Learning
+119,Python
+119,SQL
+119,Salesforce
+119,Snowflake
+119,Tableau
+120,Excel
+120,Google Analytics
+120,Python
+120,R
+120,SQL
+120,Snowflake
+120,Tableau
+121,HubSpot
+121,Machine Learning
+122,LLMs / GenAI
+122,Outreach/Salesloft
+122,Excel
+122,HubSpot
+122,Looker
+122,Marketo
+122,n8n
+122,Python
+122,SQL
+122,Salesforce
+122,Tableau
+122,Zapier
+123,Databricks
+123,Excel
+123,NetSuite/ERP
+123,Python
+123,SQL
+123,Salesforce
+124,Outreach/Salesloft
+124,Looker
+124,Power BI
+124,Salesforce
+124,Tableau
+125,Excel
+125,HubSpot
+125,Power BI
+125,Salesforce
+125,Tableau
+126,Salesforce
+127,APIs
+127,LLMs / GenAI
+127,HubSpot
+127,Make
+127,n8n
+127,Salesforce
+127,Zapier
+128,Excel
+128,HubSpot
+128,Looker
+128,Power BI
+128,Salesforce
+128,Tableau
+129,Marketo
+129,Outreach/Salesloft
+129,Power BI
+129,Salesforce
+129,Zendesk/Support
+130,HubSpot
+130,NetSuite/ERP
+130,Salesforce
+132,Excel
+132,Looker
+132,Power BI
+132,SQL
+132,Salesforce
+132,Tableau
+133,Outreach/Salesloft
+133,Salesforce
+134,Outreach/Salesloft
+134,HubSpot
+134,Zendesk/Support
+134,LLMs / GenAI
+134,SQL
+134,Salesforce
+135,HubSpot
+135,SQL
+136,HubSpot
+136,SQL
+137,APIs
+137,HubSpot
+137,LLMs / GenAI
+137,Make
+137,n8n
+137,Python
+137,SQL
+137,Salesforce
+138,APIs
+138,Outreach/Salesloft
+138,HubSpot
+138,Zendesk/Support
+138,LLMs / GenAI
+138,Python
+138,SQL
+138,Salesforce
+139,Excel
+139,SQL
+139,Salesforce
+140,HubSpot
+140,Salesforce
+141,APIs
+141,Excel
+141,HubSpot
+141,Outreach/Salesloft
+141,SQL
+141,Salesforce
+142,Excel
+142,Outreach/Salesloft
+142,SQL
+142,Salesforce
+143,Salesforce
+143,Tableau
+144,HubSpot
+145,Excel
+146,Outreach/Salesloft
+146,Power BI
+146,SQL
+146,Salesforce
+146,Tableau
+147,HubSpot
+147,Jira
+147,NetSuite/ERP
+147,SQL
+148,Excel
+148,NetSuite/ERP
+148,Zoho
+149,HubSpot
+149,NetSuite/ERP
+150,APIs
+150,HubSpot
+150,Make
+150,n8n
+150,Salesforce
+150,Zapier
+151,LLMs / GenAI
+151,Salesforce
+153,HubSpot
+153,Salesforce
+155,Looker
+155,Power BI
+155,SQL
+155,Salesforce
+155,Tableau
+156,Outreach/Salesloft
+156,Salesforce
+157,Excel
+157,Zendesk/Support
+157,HubSpot
+157,Looker
+157,Salesforce
+157,Tableau
+158,Salesforce
+159,Outreach/Salesloft
+159,Salesforce
+159,Tableau
+160,HubSpot
+160,SQL
+161,LLMs / GenAI
+161,Excel
+161,Zendesk/Support
+161,SQL
+161,Salesforce
+162,Outreach/Salesloft
+162,HubSpot
+162,Salesforce
+163,LLMs / GenAI
+163,HubSpot
+163,Outreach/Salesloft
+163,Salesforce
+164,HubSpot
+165,Power BI
+165,Excel
+165,HubSpot
+166,Excel
+166,Salesforce
+167,Excel
+167,Jira
+167,Salesforce
+169,LLMs / GenAI
+169,Excel
+169,Outreach/Salesloft
+169,Salesforce
+170,LLMs / GenAI
+170,Excel
+170,Outreach/Salesloft
+170,Salesforce
+171,Excel
+171,Looker
+171,Power BI
+171,Python
+171,R
+171,SQL
+171,Salesforce
+171,Tableau
+171,Zapier
+172,LLMs / GenAI
+172,Excel
+172,HubSpot
+172,SQL
+172,Tableau
+173,Outreach/Salesloft
+173,Salesforce
+174,HubSpot
+174,Salesforce
+175,LLMs / GenAI
+175,Outreach/Salesloft
+175,HubSpot
+175,Metabase
+175,SQL
+175,Salesforce
+175,Zapier
+176,Excel
+176,HubSpot
+176,Jira
+176,NetSuite/ERP
+176,Power BI
+176,Salesforce
+177,LLMs / GenAI
+177,Outreach/Salesloft
+177,Salesforce
+178,Excel
+178,Outreach/Salesloft
+178,HubSpot
+178,LLMs / GenAI
+178,SQL
+178,Salesforce
+179,Excel
+179,Outreach/Salesloft
+179,Salesforce
+179,Tableau
+180,HubSpot
+180,Salesforce
+181,LLMs / GenAI
+181,Salesforce
+183,Salesforce
+184,HubSpot
+184,Power BI
+184,Salesforce
+184,Tableau
+186,HubSpot
+186,Salesforce
+188,Salesforce
+191,APIs
+191,Excel
+192,Salesforce
+194,Excel
+194,SQL
+194,Salesforce
+194,Tableau
+195,Excel
+195,LLMs / GenAI
+195,Power BI
+195,SQL
+195,Salesforce
+196,AWS
+196,Azure
+196,GCP
+197,Excel
+197,Salesforce
+198,Excel
+198,NetSuite/ERP
+198,Power BI
+198,Salesforce
+198,Tableau
+199,Excel
+199,Salesforce
+201,Excel
+201,Looker
+201,SQL
+201,Salesforce
+201,Tableau
+203,Jira
+203,Excel
+203,HubSpot
+203,Salesforce
+204,HubSpot
+204,Power BI
+204,Salesforce
+204,Tableau
+205,Spark
+205,Databricks
+205,Excel
+205,Jira
+205,Machine Learning
+205,Salesforce
+206,Excel
+206,Salesforce
+209,HubSpot
+209,n8n
+209,Salesforce
+210,Excel
+210,Salesforce
+211,Excel
+211,Power BI
+211,Tableau
+212,Excel
+212,Outreach/Salesloft
+212,Salesforce
+213,Outreach/Salesloft
+213,Excel
+213,Power BI
+213,Salesforce
+213,Tableau
+214,Excel
+214,HubSpot
+214,Looker
+214,Outreach/Salesloft
+214,Power BI
+214,Tableau
+215,Excel
+215,LLMs / GenAI
+215,Salesforce
+215,Tableau
+218,Excel
+218,LLMs / GenAI
+218,n8n
+218,SQL
+218,Salesforce
+219,Excel
+219,HubSpot
+219,Looker
+219,Power BI
+219,SQL
+219,Salesforce
+219,Tableau
+220,HubSpot
+220,Power BI
+221,Excel
+221,SQL
+221,Salesforce
+221,Tableau
+222,Outreach/Salesloft
+222,LLMs / GenAI
+222,NetSuite/ERP
+222,Salesforce
+223,Power BI
+223,Salesforce
+224,Excel
+224,HubSpot
+224,Power BI
+224,Salesforce
+224,Tableau
+225,Salesforce
+226,SQL
+226,Salesforce
+226,Tableau
+227,HubSpot
+228,HubSpot
+228,n8n
+228,Salesforce
+229,Outreach/Salesloft
+229,Excel
+229,Salesforce
+230,HubSpot
+230,Salesforce
+231,Excel
+231,Salesforce
+233,Excel
+233,Salesforce
+234,Excel
+234,Outreach/Salesloft
+234,Looker
+234,Python
+234,SQL
+234,Salesforce
+234,Tableau
+235,Excel
+235,Outreach/Salesloft
+235,Power BI
+235,Salesforce
+235,Tableau
+236,Excel
+237,Outreach/Salesloft
+237,LLMs / GenAI
+237,Excel
+237,Salesforce
+238,LLMs / GenAI
+238,Excel
+238,NetSuite/ERP
+238,Salesforce
+239,Azure
+239,Power Automate
+241,APIs
+241,LLMs / GenAI
+241,Salesforce
+242,LLMs / GenAI
+242,Make
+242,n8n
+242,Python
+243,APIs
+243,HubSpot
+243,Make
+243,n8n
+243,Power Automate
+243,Python
+243,SQL
+243,Salesforce
+243,Zapier
+244,APIs
+244,Make
+244,n8n
+244,Python
+244,Workato
+244,Zapier
+245,APIs
+245,Make
+245,n8n
+245,Power Automate
+245,Python
+245,Zapier
+246,APIs
+247,LLMs / GenAI
+248,LLMs / GenAI
+249,APIs
+249,Jira
+249,LLMs / GenAI
+249,Excel
+249,HubSpot
+249,Make
+249,n8n
+249,Power Automate
+249,Python
+249,Salesforce
+249,Zapier
+250,APIs
+250,LLMs / GenAI
+250,Excel
+250,HubSpot
+250,Jira
+250,Make
+250,n8n
+250,Power Automate
+250,Python
+250,Salesforce
+250,Zapier
+251,APIs
+251,LLMs / GenAI
+251,Excel
+251,HubSpot
+251,Jira
+251,Make
+251,n8n
+251,Power Automate
+251,Python
+251,Salesforce
+251,Zapier
+252,Azure
+252,Power Automate
+252,Python
+254,NetSuite/ERP
+254,Salesforce
+255,APIs
+255,LLMs / GenAI
+255,Make
+255,n8n
+255,Power Automate
+255,Python
+255,Zapier
+256,LLMs / GenAI
+256,Make
+256,n8n
+256,Power Automate
+256,Zapier
+257,Jira
+258,LLMs / GenAI
+258,Make
+258,n8n
+258,Power Automate
+258,Zapier
+259,AWS
+259,Azure
+259,LLMs / GenAI
+259,Python
+261,Zapier
+262,Excel
+262,Power Automate
+263,LLMs / GenAI
+263,NetSuite/ERP
+264,Salesforce
+265,Python
+265,SQL
+266,Git
+267,Jira
+267,SQL
+268,Jira
+268,LLMs / GenAI
+268,Salesforce
+270,Git
+270,SQL
+271,APIs
+272,APIs
+272,Jira
+272,LLMs / GenAI
+272,Excel
+272,HubSpot
+272,Make
+272,n8n
+272,Power Automate
+272,Python
+272,Salesforce
+272,Zapier
+273,Salesforce
+274,APIs
+274,GCP
+274,Git
+274,n8n
+274,Power Automate
+274,Python
+274,SQL
+275,Git
+275,Machine Learning
+276,Git
+276,LLMs / GenAI
+277,Jira
+278,Jira
+279,HubSpot
+279,Jira
+279,Make
+279,n8n
+279,Zapier
+281,LLMs / GenAI
+281,Make
+281,n8n
+281,Python
+281,APIs
+281,Zapier
+282,LLMs / GenAI
+283,APIs
+283,LLMs / GenAI
+283,Python
+283,Salesforce
+284,APIs
+284,Zapier
+285,Python
+285,APIs
+286,APIs
+286,Excel
+286,HubSpot
+286,Marketo
+286,Power BI
+286,Salesforce
+286,Tableau
+286,Zapier
+286,Zoho
+287,Machine Learning
+287,Power Automate
+287,Python
+288,NetSuite/ERP
+288,Salesforce
+289,APIs
+289,LLMs / GenAI
+289,Make
+289,n8n
+289,Salesforce
+289,Workato
+289,Zapier
+290,AWS
+290,Azure
+290,Power Automate
+290,Python
+291,APIs
+294,Jira
+295,Jira
+296,Jira
+297,Jira
+298,Jira
+299,BigQuery
+299,dbt
+299,GCP
+299,Git
+299,Looker
+299,SQL
+300,Power BI
+300,Fivetran
+300,Machine Learning
+300,SQL
+300,Snowflake
+301,Python
+301,SQL
+302,APIs
+302,dbt
+302,Git
+302,LLMs / GenAI
+302,Looker
+302,Metabase
+302,Python
+302,SQL
+303,LLMs / GenAI
+303,Python
+303,SQL
+304,Airflow
+304,Machine Learning
+304,Python
+304,SQL
+305,dbt
+305,Git
+305,Google Analytics
+305,APIs
+305,Looker
+305,Python
+305,SQL
+305,Salesforce
+305,Snowflake
+305,Tableau
+306,AWS
+306,Google Analytics
+306,Looker
+306,Power BI
+306,Python
+306,SQL
+306,Tableau
+307,Python
+307,R
+307,SQL
+308,AWS
+308,Airflow
+308,dbt
+308,Git
+308,Python
+308,Redshift
+308,SQL
+309,BigQuery
+309,dbt
+309,Excel
+309,Git
+309,Python
+309,SQL
+309,Snowflake
+310,HubSpot
+310,Marketo
+311,AWS
+311,Azure
+311,Databricks
+311,Excel
+311,Python
+312,AWS
+312,Azure
+312,Databricks
+312,Excel
+312,Python
+313,AWS
+313,Azure
+313,Databricks
+313,Excel
+313,Python
+316,Kafka
+316,Python
+316,SQL
+317,LLMs / GenAI
+317,Google Analytics
+318,Google Analytics
+318,Python
+318,R
+318,SQL
+318,Salesforce
+320,Excel
+320,Power Automate
+320,Power BI
+320,SQL
+321,Excel
+322,Excel
+322,Power BI
+322,Tableau
+324,Excel
+324,Jira
+324,Power BI
+325,Excel
+325,Jira
+325,Power BI
+326,Excel
+326,Make
+326,Salesforce
+326,Zapier
+327,Excel
+327,Looker
+327,SQL
+327,Tableau
+328,LLMs / GenAI
+328,Excel
+329,APIs
+329,LLMs / GenAI
+329,Power BI
+329,SQL
+329,Salesforce
+329,Snowflake
+330,Python
+330,SQL
+331,SQL
+335,Excel
+336,Salesforce
+337,Excel
+337,HubSpot
+337,Salesforce
+337,Zoho
+338,Salesforce
+339,LLMs / GenAI
+339,Excel
+340,Excel
+340,Make
+340,n8n
+342,Excel
+342,NetSuite/ERP
+343,Excel
+343,Power BI
+343,Qlik
+344,HubSpot
+344,SQL
+344,Salesforce
+344,Tableau
+345,HubSpot
+346,Excel
+346,NetSuite/ERP
+346,Power BI
+347,BigQuery
+347,Outreach/Salesloft
+347,Zendesk/Support
+347,SQL
+347,Salesforce
+347,Snowflake
+347,Tableau
+348,BigQuery
+348,Outreach/Salesloft
+348,Zendesk/Support
+348,SQL
+348,Salesforce
+348,Snowflake
+348,Tableau
+349,Zendesk/Support
+349,HubSpot
+349,LLMs / GenAI
+349,Salesforce
+350,Git
+351,SQL
+353,APIs
+353,Azure
+353,Zendesk/Support
+353,Jira
+354,Jira
+354,Salesforce
+355,Excel
+356,Databricks
+356,GCP
+356,Zendesk/Support
+356,LLMs / GenAI
+356,NetSuite/ERP
+356,Python
+356,Salesforce
+356,Snowflake
+357,LLMs / GenAI
+357,HubSpot
+357,NetSuite/ERP
+359,NetSuite/ERP
+360,NetSuite/ERP
+361,NetSuite/ERP
+362,Zendesk/Support
+362,Salesforce
+363,HubSpot
+363,Marketo
+364,Outreach/Salesloft
+364,Salesforce
+364,Zendesk/Support
+365,Outreach/Salesloft
+365,HubSpot
+367,Salesforce
+367,Zendesk/Support
+368,LLMs / GenAI
+368,HubSpot
+368,Metabase
+368,SQL
+369,Excel
+371,HubSpot
+372,Zendesk/Support
+372,HubSpot
+372,NetSuite/ERP
+373,HubSpot
+373,Zendesk/Support
+374,Excel
+375,APIs
+376,NetSuite/ERP
+377,NetSuite/ERP
+378,NetSuite/ERP
+379,NetSuite/ERP
+380,NetSuite/ERP
+381,NetSuite/ERP
+382,Zendesk/Support
+382,Salesforce
+384,APIs
+384,BigQuery
+384,Excel
+384,Zendesk/Support
+384,Power BI
+384,SQL
+384,Tableau
+386,Salesforce
+387,APIs
+387,Jira
+388,Excel
+388,HubSpot
+388,Salesforce
+391,APIs
+391,Python
+392,Salesforce
+392,Zendesk/Support
+393,NetSuite/ERP
+394,Zoho
+395,Zendesk/Support
+395,Salesforce
+396,Zendesk/Support
+396,LLMs / GenAI
+396,Salesforce
+397,LLMs / GenAI
+397,Zendesk/Support
+397,HubSpot
+397,Salesforce
+398,NetSuite/ERP
+399,NetSuite/ERP
+400,Excel
+400,Zendesk/Support
+400,HubSpot
+400,Salesforce
+403,Outreach/Salesloft
+403,Salesforce
+404,Salesforce
+406,AWS
+406,GCP
+407,AWS
+407,GCP
+408,dbt
+408,SQL
+409,Excel
+410,dbt
+410,Looker
+410,SQL
+410,Snowflake
+410,Tableau
+411,Looker
+411,LLMs / GenAI
+412,Excel
+413,AWS
+413,dbt
+413,Power BI
+413,SQL
+414,AWS
+414,Azure
+414,dbt
+414,Databricks
+414,GCP
+414,LLMs / GenAI
+414,Machine Learning
+414,Python
+414,SQL
+415,AWS
+415,Azure
+415,dbt
+415,Databricks
+415,GCP
+415,LLMs / GenAI
+415,Looker
+415,Machine Learning
+415,Python
+415,Spark
+415,Tableau
+416,AWS
+416,Azure
+416,dbt
+416,Databricks
+416,GCP
+416,LLMs / GenAI
+416,Looker
+416,Machine Learning
+416,Python
+416,Spark
+416,Tableau
+417,AWS
+417,Azure
+417,dbt
+417,Databricks
+417,GCP
+417,LLMs / GenAI
+417,Looker
+417,Machine Learning
+417,Python
+417,Redshift
+417,Spark
+417,Tableau
+418,AWS
+418,Redshift
+418,Azure
+418,dbt
+418,Databricks
+418,GCP
+418,LLMs / GenAI
+418,Looker
+418,Machine Learning
+418,Python
+418,Spark
+418,Tableau
+419,AWS
+419,Azure
+419,dbt
+419,Databricks
+419,GCP
+419,LLMs / GenAI
+419,Looker
+419,Machine Learning
+419,Python
+419,Spark
+419,Tableau
+420,AWS
+420,Azure
+420,dbt
+420,Databricks
+420,GCP
+420,LLMs / GenAI
+420,Looker
+420,Machine Learning
+420,Python
+420,Spark
+420,Tableau
+421,LLMs / GenAI
+422,dbt
+422,Databricks
+422,APIs
+422,LLMs / GenAI
+422,Marketo
+422,Python
+422,SQL
+422,Salesforce
+422,Snowflake
+423,BigQuery
+423,dbt
+423,Fivetran
+423,GCP
+423,Git
+423,NetSuite/ERP
+423,Python
+423,SQL
+424,Airflow
+424,BigQuery
+424,dbt
+424,Python
+424,Redshift
+424,SQL
+424,Snowflake
+425,AWS
+425,Git
+426,AWS
+426,GCP
+427,Python
+427,Spark
+428,AWS
+428,Airflow
+428,dbt
+428,Machine Learning
+428,Python
+428,Redshift
+428,SQL
+429,Fivetran
+429,Airflow
+429,BigQuery
+429,dbt
+429,Databricks
+429,Looker
+429,Machine Learning
+429,Power BI
+429,Python
+429,Qlik
+429,Redshift
+429,SQL
+429,Snowflake
+429,Tableau
+430,AWS
+430,Airflow
+430,dbt
+430,Machine Learning
+430,Python
+430,SQL
+430,Spark
+431,AWS
+431,Airflow
+431,Azure
+431,dbt
+431,Databricks
+431,GCP
+431,Kafka
+431,LLMs / GenAI
+431,Machine Learning
+431,Python
+431,SQL
+431,Spark
+432,AWS
+432,Airflow
+432,Azure
+432,dbt
+432,Databricks
+432,GCP
+432,LLMs / GenAI
+432,Looker
+432,Machine Learning
+432,Python
+432,SQL
+432,Snowflake
+432,Tableau
+433,dbt
+433,Python
+433,SQL
+433,Snowflake
+435,Airflow
+435,BigQuery
+435,dbt
+435,Excel
+435,Looker
+435,Python
+435,SQL
+436,AWS
+436,Airflow
+436,Azure
+436,dbt
+436,Git
+436,LLMs / GenAI
+436,Python
+436,Redshift
+436,SQL
+436,Snowflake
+437,Excel
+438,APIs
+438,AWS
+438,Airflow
+438,BigQuery
+438,GCP
+438,Kafka
+438,Machine Learning
+438,Python
+438,Spark
+439,Azure
+439,Databricks
+439,Python
+439,SQL
+439,Spark
+440,Databricks
+440,LLMs / GenAI
+440,Snowflake
+441,APIs
+441,Airflow
+441,BigQuery
+441,dbt
+441,GCP
+441,Git
+441,Python
+441,SQL
+442,Databricks
+442,Python
+442,R
+442,SQL
+443,Azure
+443,Databricks
+443,Python
+443,SQL
+444,dbt
+444,Snowflake
+445,APIs
+445,Airflow
+445,dbt
+445,Kafka
+445,LLMs / GenAI
+445,Machine Learning
+445,Snowflake
+446,Airflow
+446,Databricks
+446,Git
+446,Machine Learning
+446,Python
+446,SQL
+446,Snowflake
+447,Airflow
+447,LLMs / GenAI
+447,Kafka
+447,Machine Learning
+447,Python
+447,SQL
+447,Spark
+448,AWS
+448,Azure
+448,GCP
+448,Machine Learning
+448,Python
+448,SQL
+449,SQL
+449,Python
+450,AWS
+450,Airflow
+450,Azure
+450,BigQuery
+450,dbt
+450,Databricks
+450,GCP
+450,Python
+450,Redshift
+450,SQL
+450,Snowflake
+450,Spark
+451,GCP
+452,AWS
+452,Python
+452,Snowflake
+453,Excel
+453,Power BI
+453,SQL
+453,Tableau
+454,AWS
+454,Airflow
+454,Spark
+454,LLMs / GenAI
+454,Excel
+454,Python
+454,SQL
+457,Machine Learning
+457,Python
+457,SQL
+457,Spark
+458,Azure
+458,Databricks
+458,Python
+458,SQL
+459,Airflow
+459,BigQuery
+459,dbt
+459,Excel
+459,Looker
+459,Python
+459,SQL
+460,AWS
+460,Airflow
+460,Azure
+460,dbt
+460,Git
+460,LLMs / GenAI
+460,Python
+460,Redshift
+460,SQL
+460,Snowflake
+461,dbt
+461,Excel
+461,Machine Learning
+461,SQL
+461,Spark
+462,dbt
+462,Excel
+462,Machine Learning
+462,SQL
+462,Spark
+463,AWS
+463,Azure
+463,Databricks
+463,GCP
+463,LLMs / GenAI
+463,Python
+463,SQL
+465,Azure
+465,LLMs / GenAI
+465,Python
+466,Azure
+466,LLMs / GenAI
+466,Python
+467,AWS
+467,Azure
+467,GCP
+467,LLMs / GenAI
+467,Python
+468,AWS
+468,Azure
+468,GCP
+468,LLMs / GenAI
+468,Python
+469,LLMs / GenAI
+469,Machine Learning
+469,Python
+471,LLMs / GenAI
+471,Python
+472,AWS
+472,Azure
+472,GCP
+472,LLMs / GenAI
+472,Machine Learning
+472,NetSuite/ERP
+472,Python
+473,LLMs / GenAI
+474,AWS
+474,GCP
+474,LLMs / GenAI
+475,LLMs / GenAI
+475,Python
+477,LLMs / GenAI
+478,AWS
+478,LLMs / GenAI
+478,SQL
+479,APIs
+479,LLMs / GenAI
+479,Databricks
+479,GCP
+479,Google Analytics
+480,LLMs / GenAI
+480,Machine Learning
+481,AWS
+481,Azure
+481,GCP
+481,LLMs / GenAI
+482,APIs
+482,LLMs / GenAI
+483,LLMs / GenAI
+483,n8n
+484,APIs
+484,LLMs / GenAI
+485,Databricks
+485,LLMs / GenAI
+485,Python
+486,LLMs / GenAI
+487,Azure
+487,LLMs / GenAI
+487,Machine Learning
+488,Python
+489,AWS
+489,LLMs / GenAI
+491,LLMs / GenAI
+491,Machine Learning
+492,LLMs / GenAI
+492,Machine Learning
+493,LLMs / GenAI
+493,Machine Learning
+494,LLMs / GenAI
+494,Machine Learning
+495,LLMs / GenAI
+495,Machine Learning
+496,Azure
+496,LLMs / GenAI
+496,Jira
+496,Power Automate
+496,Power BI
+496,Python
+496,SQL
+497,LLMs / GenAI
+497,Machine Learning
+498,AWS
+498,LLMs / GenAI
+498,Machine Learning
+498,Python
+499,LLMs / GenAI
+500,APIs
+500,AWS
+500,LLMs / GenAI
+500,Python
+501,BigQuery
+501,Git
+501,LLMs / GenAI
+501,Snowflake
+501,dbt
+502,LLMs / GenAI
+502,Machine Learning
+502,Python

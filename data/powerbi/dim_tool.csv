@@ -1,0 +1,40 @@
+﻿tool,category
+APIs,Dev
+AWS,Cloud
+Airflow,Data Eng
+Azure,Cloud
+BigQuery,Warehouse
+Databricks,Warehouse
+Excel,Spreadsheet
+Fivetran,Data Eng
+GCP,Cloud
+Git,Dev
+Google Analytics,Analytics
+HubSpot,CRM
+Jira,Work Mgmt
+Kafka,Data Eng
+LLMs / GenAI,AI
+Looker,BI
+Machine Learning,AI
+Make,Automation
+Marketo,Marketing Ops
+Metabase,BI
+NetSuite/ERP,Finance Ops
+Outreach/Salesloft,CRM
+Power Automate,Automation
+Power BI,BI
+Python,Language
+Qlik,BI
+R,Language
+Redshift,Warehouse
+SQL,Language
+Salesforce,CRM
+Snowflake,Warehouse
+Spark,Data Eng
+Tableau,BI
+Workato,Automation
+Zapier,Automation
+Zendesk/Support,Support
+Zoho,CRM
+dbt,Data Eng
+n8n,Automation

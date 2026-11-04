@@ -1,0 +1,99 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Tool",
+            "name": "tool",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Tool category",
+            "name": "category",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Role family",
+            "name": "family",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Postings",
+            "name": "postings",
+            "kind": "Measure"
+        }
+    ],
+    "objects": {
+        "display": {
+            "properties": {
+                "topN": {
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "showMatrix": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "showCounts": {
+                    "type": {
+                        "bool": true
+                    }
+                }
+            }
+        }
+    },
+    "dataViewMappings": [
+        {
+            "conditions": [
+                {
+                    "tool": {
+                        "max": 1
+                    },
+                    "category": {
+                        "max": 1
+                    },
+                    "family": {
+                        "max": 1
+                    },
+                    "postings": {
+                        "max": 1
+                    }
+                }
+            ],
+            "table": {
+                "rows": {
+                    "select": [
+                        {
+                            "for": {
+                                "in": "tool"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "category"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "family"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "postings"
+                            }
+                        }
+                    ],
+                    "dataReductionAlgorithm": {
+                        "window": {
+                            "count": 5000
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "privileges": [],
+    "supportsMultiVisualSelection": true,
+    "supportsKeyboardFocus": true
+}

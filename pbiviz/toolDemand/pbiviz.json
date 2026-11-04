@@ -1,0 +1,26 @@
+{
+  "visual": {
+    "name": "toolDemand",
+    "displayName": "Tool Demand Board",
+    "guid": "toolDemand7D214B9AECC24A54AD32CC8BD8591515",
+    "visualClassName": "Visual",
+    "version": "1.0.0.0",
+    "description": "Ranked tool demand with category colors, a tool x role-family heat matrix and cross-filtering.",
+    "supportUrl": "https://github.com/Salo996",
+    "gitHubUrl": "https://github.com/Salo996"
+  },
+  "apiVersion": "5.11.1",
+  "author": {
+    "name": "Salomon Santiago",
+    "email": "salo.santiago96@gmail.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": null,
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": [],
+  "version": "1.0.0.0"
+}

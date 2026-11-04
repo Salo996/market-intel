@@ -1,0 +1,37 @@
+{
+  "name": "Market Intel Dark",
+  "dataColors": ["#5fe3c0", "#5aa9ff", "#a78bfa", "#f2b85b", "#f472b6", "#4ade80", "#7dd3fc", "#f59e6b"],
+  "background": "#0a2540",
+  "foreground": "#d7e2ee",
+  "foregroundNeutralSecondary": "#8ea6bf",
+  "foregroundNeutralTertiary": "#6f8aa6",
+  "backgroundLight": "#0e2f50",
+  "backgroundNeutral": "#1c3d60",
+  "tableAccent": "#5fe3c0",
+  "good": "#5fe3c0",
+  "neutral": "#f2b85b",
+  "bad": "#e0707a",
+  "maximum": "#5fe3c0",
+  "center": "#5aa9ff",
+  "minimum": "#1c3d60",
+  "null": "#6f8aa6",
+  "hyperlink": "#5fe3c0",
+  "visitedHyperlink": "#a6f5df",
+  "textClasses": {
+    "callout": { "fontSize": 30, "fontFace": "Segoe UI Semibold", "color": "#5fe3c0" },
+    "title": { "fontSize": 13, "fontFace": "Segoe UI Semibold", "color": "#f2f7fc" },
+    "header": { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#f2f7fc" },
+    "label": { "fontSize": 10, "fontFace": "Segoe UI", "color": "#8ea6bf" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#0a2540" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#1c3d60" } }, "radius": 10 }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#f2f7fc" } }, "fontSize": 13, "fontFamily": "Segoe UI Semibold" }],
+        "visualHeader": [{ "show": false }]
+      },
+      "page": { "*": { "background": [{ "color": { "solid": { "color": "#06182b" } }, "transparency": 0 }] } }
+    }
+  }
+}

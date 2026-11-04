@@ -1,0 +1,41 @@
+// ============================================================
+// Market Intel — Power BI measures
+// Model: dim_tool[tool] 1->* bridge_job_tool[tool]
+//        fact_jobs[job_id] 1->* bridge_job_tool[job_id]   (both single-direction)
+// Create all of these in a dedicated empty table "_Measures" (Home > Enter data).
+// ============================================================
+
+// --- Used by the Tool Demand Board custom visual ("Postings" field) ---
+Postings = COUNTROWS ( bridge_job_tool )
+
+// --- KPI cards ---
+Total Jobs = COUNTROWS ( fact_jobs )
+
+// Reacts to tool selections made in the custom visual (counts jobs naming ANY selected tool)
+Selected Jobs =
+IF ( ISFILTERED ( dim_tool[tool] ), DISTINCTCOUNT ( bridge_job_tool[job_id] ), [Total Jobs] )
+
+AI Share % =
+DIVIDE ( CALCULATE ( COUNTROWS ( fact_jobs ), fact_jobs[mentions_ai] = 1 ), [Total Jobs] )
+
+Median Salary (USD) = MEDIAN ( fact_jobs[salary_annual_usd] )
+
+Salary Coverage % = DIVIDE ( COUNT ( fact_jobs[salary_annual_usd] ), [Total Jobs] )
+
+Worldwide % =
+DIVIDE ( CALCULATE ( COUNTROWS ( fact_jobs ), fact_jobs[region] = "Worldwide" ), [Total Jobs] )
+
+Avg Tools per Posting = AVERAGE ( fact_jobs[n_tools] )
+
+// --- Tool share: % of the (filtered) postings that name the tool in context ---
+Tool Share % = DIVIDE ( [Postings], [Total Jobs] )
+
+// --- Insight line for a text card ---
+Top Tool =
+VAR t = TOPN ( 1, VALUES ( dim_tool[tool] ), [Postings], DESC )
+RETURN MAXX ( t, dim_tool[tool] )
+
+Headline =
+[Top Tool] & " is the most requested tool. " &
+FORMAT ( [AI Share %], "0%" ) & " of postings expect AI tools; median disclosed pay is " &
+FORMAT ( [Median Salary (USD)], "$#,##0" ) & " (" & FORMAT ( [Salary Coverage %], "0%" ) & " disclose pay)."

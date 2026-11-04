@@ -1,0 +1,101 @@
+
+> market-intel-web@0.1.0 dev
+> vite --port 5173
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m359[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m9:29:12 p.m.[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx[22m
+[2m10:16:59 p.m.[22m [36m[1m[vite][22m[39m [32mvite.config.js changed, restarting server...[39m
+[2m10:16:59 p.m.[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mharness.html[22m
+[2m10:16:59 p.m.[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mharness.html[22m
+Re-optimizing dependencies because vite config has changed
+[2m10:16:59 p.m.[22m [36m[1m[vite][22m[39m server restarted.
+[2m10:17:23 p.m.[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/@fs/C:/Users/salos/Projects/market-intel/pbiviz/toolDemand/src/components/Board.tsx[22m
+[2m10:17:23 p.m.[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/@fs/C:/Users/salos/Projects/market-intel/pbiviz/toolDemand/src/components/Board.tsx[22m
+[2m10:22:37 p.m.[22m [31m[1m[vite][22m[39m Pre-transform error: C:\Users\salos\Projects\market-intel\pbiviz\toolDemand\src\components\Board.tsx: Unterminated string constant. (74:104)
+
+[0m [90m 72 |[39m                         [33m<[39m[33mdiv[39m className[33m=[39m[32m"td-matrix"[39m style[33m=[39m{{ gridTemplateColumns[33m:[39m [32m`92px repeat(${fams.length}, minmax(44px, 1fr))`[39m }}[33m>[39m
+ [90m 73 |[39m                             [33m<[39m[33mdiv[39m className[33m=[39m[32m"td-mh"[39m [33m/[39m[33m>[39m
+[31m[1m>[22m[39m[90m 74 |[39m                             {fams[33m.[39mmap((f) [33m=>[39m [33m<[39m[33mdiv[39m key[33m=[39m{f} className[33m=[39m[32m"td-mh"[39m title[33m=[39m{f}[33m>[39m{f[33m.[39mreplace([32m" / "[39m[33m,[39m [32m" /[39m
+ [90m    |[39m                                                                                                         [31m[1m^[22m[39m
+ [90m 75 |[39m [32m")}</div>)}[39m
+ [90m 76 |[39m                             {ranked[33m.[39mslice([35m0[39m[33m,[39m [35m10[39m)[33m.[39mmap(([name[33m,[39m t]) [33m=>[39m (
+ [90m 77 |[39m                                 [33m<[39m[33mReact[39m[33m.[39m[33mFragment[39m key[33m=[39m{name}[33m>[39m[0m
+[2m10:22:37 p.m.[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\salos\Projects\market-intel\pbiviz\toolDemand\src\components\Board.tsx: Unterminated string constant. (74:104)
+
+[0m [90m 72 |[31m                         [33m<[31m[33mdiv[31m className[33m=[31m[32m"td-matrix"[31m style[33m=[31m{{ gridTemplateColumns[33m:[31m [32m`92px repeat(${fams.length}, minmax(44px, 1fr))`[31m }}[33m>[31m
+ [90m 73 |[31m                             [33m<[31m[33mdiv[31m className[33m=[31m[32m"td-mh"[31m [33m/[31m[33m>[31m
+[31m[1m>[22m[31m[90m 74 |[31m                             {fams[33m.[31mmap((f) [33m=>[31m [33m<[31m[33mdiv[31m key[33m=[31m{f} className[33m=[31m[32m"td-mh"[31m title[33m=[31m{f}[33m>[31m{f[33m.[31mreplace([32m" / "[31m[33m,[31m [32m" /[31m
+ [90m    |[31m                                                                                                         [31m[1m^[22m[31m
+ [90m 75 |[31m [32m")}</div>)}[31m
+ [90m 76 |[31m                             {ranked[33m.[31mslice([35m0[31m[33m,[31m [35m10[31m)[33m.[31mmap(([name[33m,[31m t]) [33m=>[31m (
+ [90m 77 |[31m                                 [33m<[31m[33mReact[31m[33m.[31m[33mFragment[31m key[33m=[31m{name}[33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/salos/Projects/market-intel/pbiviz/toolDemand/src/components/Board.tsx[39m:74:104
+[33m  74 |                              {fams.map((f) => <div key={f} className="td-mh" title={f}>{f.replace(" / ", " /
+  75 |  ")}</div>)}
+  76 |                              {ranked.slice(0, 10).map(([name, t]) => (
+     |                                                           ^
+  77 |                                  <React.Fragment key={name}>
+  78 |                                      <div className="td-ml">{name}</div>[39m
+      at constructor (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:368:19)
+      at TypeScriptParserMixin.raise (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:6631:19)
+      at Object.unterminated (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:5663:20)
+      at readStringContents (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:5405:16)
+      at TypeScriptParserMixin.readString (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:6529:9)
+      at TypeScriptParserMixin.getTokenFromCode (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:6259:14)
+      at TypeScriptParserMixin.getTokenFromCode (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:4818:11)
+      at TypeScriptParserMixin.getTokenFromCode (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:13849:11)
+      at TypeScriptParserMixin.nextToken (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:5783:10)
+      at TypeScriptParserMixin.next (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:5691:10)
+      at TypeScriptParserMixin.eat (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:5695:12)
+      at TypeScriptParserMixin.expect (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:6967:15)
+      at TypeScriptParserMixin.parseCallExpressionArguments (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:8231:14)
+      at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:8174:29)
+      at TypeScriptParserMixin.parseSubscript (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:8103:19)
+      at TypeScriptParserMixin.parseSubscript (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:13147:18)
+      at TypeScriptParserMixin.parseSubscripts (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:8077:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:8068:17)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:8049:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:8029:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:13712:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:7875:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:7880:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:7857:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:7805:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:13661:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:7753:23)
+      at C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:7749:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:9424:12)
+      at TypeScriptParserMixin.parseExpression (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:7749:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:4653:31)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:4732:36)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:4770:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:4780:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:8064:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:8049:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:8029:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:13712:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:7875:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:7880:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:7857:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:7805:21)
+      at C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:13650:39
+      at TypeScriptParserMixin.tryParse (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:6994:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:13650:18)
+      at TypeScriptParserMixin.parseFunctionBody (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:9088:24)
+      at TypeScriptParserMixin.parseArrowExpression (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:9067:10)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:8675:12)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:8319:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\salos\Projects\market-intel\web\node_modules\@babel\parser\lib\index.js:4785:20)
+[2m10:22:45 p.m.[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/@fs/C:/Users/salos/Projects/market-intel/pbiviz/toolDemand/src/components/Board.tsx[22m
+[2m10:22:45 p.m.[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/@fs/C:/Users/salos/Projects/market-intel/pbiviz/toolDemand/src/components/Board.tsx[22m
+[2m10:23:12 p.m.[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/@fs/C:/Users/salos/Projects/market-intel/pbiviz/toolDemand/src/components/Board.tsx[22m
+[2m10:23:12 p.m.[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/@fs/C:/Users/salos/Projects/market-intel/pbiviz/toolDemand/src/components/Board.tsx[22m
+[2m10:53:52 p.m.[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/@fs/C:/Users/salos/Projects/market-intel/pbiviz/toolDemand/src/components/Board.tsx[22m
+[2m10:53:52 p.m.[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/@fs/C:/Users/salos/Projects/market-intel/pbiviz/toolDemand/src/components/Board.tsx[22m
+[2m10:53:52 p.m.[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/harness.jsx[22m
+[2m10:54:07 p.m.[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/harness.jsx[22m
